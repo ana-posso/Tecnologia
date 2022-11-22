@@ -1,0 +1,59 @@
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200;400&family=Montserrat:wght@200;300;400;500;600;700;800&family=Pinyon+Script&family=Seymour+One&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <title>Carrousel_img</title>
+    <link href="side\css\estilos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="../js/scriptsP1.js"></script> <!-- PUNTO 1 TALLER JS --> 
+    <!----<script src="../js/scriptsP2.js"></script--> <!-- PUNTO 2 TALLER JS --> 
+    <!--<script src="../js/scriptsP3.js"></script>--> <!-- PUNTO 2 TALLER JS --> 
+</head>
+<body>
+    
+<h1 class="galeriatitle">
+  Galería
+ 
+</h1>
+    <section>
+      <!-- Galeria -->
+      <div class="galeria">
+        <div class="lista-imagenes">
+          <img class="contenedor" src="" alt="imagen principal">
+
+          <div class="titulo">Titulo: </div>
+          <p class="desc">descripcion</p>
+
+         
+
+          <button id="button" oncontextmenu="event.preventDefault();"> Siguiente </button>
+          <p id="log"></p>
+          
+
+        </div>
+      </div>
+    </div>
+    </section>
+    <section>
+      <center>
+        <form action="Galeria.php" method="post" enctype="multipart/form-data">
+          <input type="text" required name="Titulo" placeholder="Titulo....." value=""/>
+          <input type="text" required name="descripcion" placeholder="Descripccion....." value=""/>
+          <input type="file" required name="Imagen" />
+          <input type="submit" value="Aceptar">
+        </form>
+      </center>
+      <script>
+        var image1 =images[1].url;
+        console.log(image1);    
+        $('.contenedor').attr('src',image1)
+        
+
+      </script>
+    </body>
+    </html>
+ 

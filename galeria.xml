@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<galeria>
+    <imagen>
+        <titulo>Imagen 01</titulo>
+        <descripcion>Esto es una preuba de texto descriptivo</descripcion>
+        <url>img/img1.jpg</url>
+    </imagen>
+    <imagen>
+        <titulo>Imagen 03</titulo>
+        <descripcion>Esto es una prueba de texto descriptivo</descripcion>
+        <url>img/img2.jpg</url>
+    </imagen>
+    <imagen>
+        <titulo>Imagen 03</titulo>
+        <descripcion>Esto es una prueba de texto descriptivo</descripcion>
+        <url>img/img3.jpg</url>
+    </imagen>
+    <imagen>
+        <titulo>Imagen 04</titulo>
+        <descripcion>Esto es una prueba de texto descriptivo</descripcion>
+        <url>img/img4.jpg</url>
+    </imagen>
+ 
+</galeria>
